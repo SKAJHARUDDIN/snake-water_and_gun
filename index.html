@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake, Water & Gun</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <nav>
+        <h1>Game - Snake, Water and Gun</h1>
+    </nav>
+    <div class="container w-100">
+        <div class="input-output">
+            <!-- <h2>Select any one from below.</h2> -->
+            <h2>Let's Play This Game</h2>
+            <p>Please choose from below.</p>
+            <div class="option-contain">
+                <select name="input" id="inputSelect" class="input-select display-block">
+                    <option class="option" value="notSelected">Select</option>
+                    <option class="option snake" value="snake">Snake</option>
+                    <option class="option water" value="water">Water</option>
+                    <option class="option gun" value="gun">Gun</option>
+                </select>
+                <div class="buttons">
+                    <button type="submit" class="submit" id="submit" onclick="myFunction()" value="submit">Submit</button>
+                    <button id="reset" type="reset">Reset</button>
+                </div>
+                <p class="display-block" id="result">Your result will appear here.</p>
+
+                <div class="small-reqest">
+                    <span>*I'm working for reset button. Please stay tuned. Thank you😊.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Sk Ajhar Uddin, 2022</p>
+    </footer>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
