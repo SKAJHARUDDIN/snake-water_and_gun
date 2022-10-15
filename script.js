@@ -30,20 +30,7 @@ let myFunction = (() => {
         }
     });
 
-    let result = match(user, cpu);
-    
-    let finalResult = ((user, cpu) = {
-        if(user){
-            return 'Hurrah! You have won the match.';
-        } else {
-            return 'CPU side won the match';
-        }
-    });
-
-    let res = finalResult();
-
-    
-    
-    document.querySelector('#result').innerText = `You have chosen : ${res.toUpperCase()} \nCPU side : ${res.toUpperCase()} \nThe winner is : ${result.toUpperCase()}.`;
+    let result = match(user, cpu);  
+    document.querySelector('#result').innerText = `You have chosen : ${user.toUpperCase()} \nCPU side : ${cpu.toUpperCase()} \nThe winner is : ${result.toUpperCase()}.`;
 });
 
